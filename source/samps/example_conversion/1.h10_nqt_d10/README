@@ -1,0 +1,60 @@
+FCI(BDF) for H10/R=2A:
+    67   134   134     1   T       -9.8500665436      0.266E-13      0.150E-06
+    67   134   134     2   T       -9.8421559119      0.925E-12      0.812E-06
+  State =    1     0.000  Proj  =    1.000
+  State =    2     2.000  Proj  =    1.000
+
+*** New results 2017 for triplets [Ms=0]:
+
+1. Triplet SP-MPS:
+
+   Summary for L-MPS:
+    npts   = 4
+    <H(P)> = -4.66720739129
+    ovlp   = 1.0
+    <(P)>  = 0.474210204104
+    Energy = -9.84206444926
+    Econst = 0.0
+    Etotal = -9.84206444926
+    bBdims = [1, 4, 10, 10, 10, 10, 10, 10, 10, 10, 1]
+    kBdims = [1, 4, 10, 10, 10, 10, 10, 10, 10, 10, 1]
+   
+   [mpo_dmrg_propsItrf.eval_S2Global]
+    time for eval_S2Global = 0.16 s
+   expect_S2= 2.0
+   
+2. Normal MPS:
+
+   Summary for L-MPS:
+    npts   = None
+    <H(P)> = -9.84455870908
+    ovlp   = 1.0
+    <(P)>  = None
+    Energy = -9.84455870908
+    Econst = 0.0
+    Etotal = -9.84455870908
+    bBdims = [1, 4, 10, 10, 10, 10, 10, 10, 10, 10, 1]
+    kBdims = [1, 4, 10, 10, 10, 10, 10, 10, 10, 10, 1]
+   
+   [mpo_dmrg_propsItrf.eval_S2Global]
+    time for eval_S2Global = 0.04 s
+   expect_S2= 1.00732782329
+
+3. Singlet SP-MPS:
+   
+   Summary for L-MPS:
+    npts   = 4
+    <H(P)> = -5.090139171
+    ovlp   = 1.0
+    <(P)>  = 0.516888121232
+    Energy = -9.84766134471
+    Econst = 0.0
+    Etotal = -9.84766134471
+    bBdims = [1, 4, 10, 10, 10, 10, 10, 10, 10, 10, 1]
+    kBdims = [1, 4, 10, 10, 10, 10, 10, 10, 10, 10, 1]
+   
+   [mpo_dmrg_propsItrf.eval_S2Global]
+    time for eval_S2Global = 0.16 s
+   expect_S2= 2.68487265189e-16
+
+*** Sweep projection (2017.01.31)

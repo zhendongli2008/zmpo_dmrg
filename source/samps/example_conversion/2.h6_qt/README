@@ -1,0 +1,57 @@
+#
+#    34   126   126     1   T       -5.1491130015      0.000E+00      0.754E-09
+#    34   126   126     2   T       -5.1372384525      0.195E-13      0.814E-08
+#    34   126   126     3   T       -5.1233644821      0.266E-14      0.304E-08
+#    34   126   126     4   T       -5.1180021882      0.983E-12      0.281E-06
+#
+#  State =    1    -0.000  Proj  =    1.000
+#  State =    2     2.000  Proj  =    0.986
+#  State =    3     2.000  Proj  =    0.986
+#  State =    4     0.000  Proj  =    1.000
+#
+
+==== Triplet (NQt) ===
+
+Summary for L-MPS:
+ npts   = 4
+ <H(P)> = -2.33778317882
+ ovlp   = 1.0
+ <(P)>  = 0.455117436149
+ Energy = -5.13665922931
+ Econst = 0.0
+ Etotal = -5.13665922931
+ bBdims = [1, 4, 5, 5, 5, 5, 1]
+ kBdims = [1, 4, 5, 5, 5, 5, 1]
+
+[mpo_dmrg_propsItrf.eval_S2Global]
+ time for eval_S2Global = 0.10 s
+expect_S2= 2.0
+
+=== Qt ===
+Summary for L-MPS:
+ npts   = 4
+ <H(P)> = -2.33778677585
+ ovlp   = 1.0
+ <(P)>  = 0.455118136425
+ Energy = -5.13665922922
+ Econst = 0.0
+ Etotal = -5.13665922922
+ bBdims = [1, 4, 5, 5, 5, 5, 1]
+ kBdims = [1, 4, 5, 5, 5, 5, 1]
+
+==== Singlet from Triplet-Optimized MPS ===
+
+Summary for L-MPS:
+ npts   = 4
+ <H(P)> = -2.7579014944
+ ovlp   = 1.0
+ <(P)>  = 0.535871973559
+ Energy = -5.14656789397
+ Econst = 0.0
+ Etotal = -5.14656789397
+ bBdims = [1, 4, 5, 5, 5, 5, 1]
+ kBdims = [1, 4, 5, 5, 5, 5, 1]
+
+[mpo_dmrg_propsItrf.eval_S2Global]
+ time for eval_S2Global = 0.10 s
+expect_S2= 1.03590323753e-16

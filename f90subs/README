@@ -1,0 +1,15 @@
+*** Note 2017.02.02:
+
+f2py -c -m angular angular.F90
+
+Usage: 
+import moddata
+moddata.anglib.cleb()
+
+*** Note 2016.12.01:
+
+f2py -c fortranenergy.pyf fortranenergy.F90
+
+or 
+
+f2py -c fortranenergy.pyf fortranenergy.so # created by fortran comipler

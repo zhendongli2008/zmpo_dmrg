@@ -1,0 +1,1247 @@
+commit fccdc66d54b305afc1672efcfa0c4ccbb4459cdd
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Wed Feb 8 20:18:51 2017 -0800
+
+    standalone util for reading MPS
+
+commit bc1014d887401f658d64aa8b7bfd495395a57752
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Wed Feb 8 16:32:22 2017 -0800
+
+    add examples for calling ctypes, and examples for f2py subroutines
+
+commit 8ef0e6faebd6654c13264c2ef1c7f7a168f6b03e
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Thu Feb 2 22:52:28 2017 -0800
+
+    add libs/__init__.py
+
+commit 3e609c62148284298b2449fd82c99534497688e1
+Merge: 1bf9645 323a33a
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Thu Feb 2 20:56:14 2017 -0800
+
+    maxiter=10
+
+commit 1bf964525d7ba15d26ec6bdd1c60b8ff0bd30e3c
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Thu Feb 2 20:55:17 2017 -0800
+
+    maxiter=10
+
+commit 323a33ac312141a86cd312770977fce514e80055
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Fri Feb 3 12:31:44 2017 +0800
+
+    MPS to SAMPS conversion
+
+commit 2d3d32b4772a9dd6c701dd97381809f769991e95
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Thu Feb 2 22:10:48 2017 +0800
+
+    add conversion between NQt to Qt MPS
+
+commit 742d8dbd6df4d528c8961346fdcd176eb3fa51da
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Wed Feb 1 22:47:44 2017 +0800
+
+    Initial correct version. Great Job!
+
+commit a11ef79feb4e25147988152d32a1ba6b09e765b4
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Wed Feb 1 20:36:22 2017 +0800
+
+    The MOST difficult part for any kind of MPS (FS-MPS, HS-MPS, SA-MPS) is the implementation of direct product coupling rules
+
+commit 1cedb7cd0b06be3e81c1eb7043a634b137d43ddf
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Wed Feb 1 16:07:13 2017 +0800
+
+    initial transformation
+
+commit c1e5e6480b06fbd0ca2a2a9b67e05b279887ea73
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Tue Jan 31 20:07:20 2017 +0800
+
+    Direct Product for Non-Abelian SU(2) symmetry
+
+commit 9705c8df7cf65a97337f71db1f20402d0a4775b2
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Tue Jan 31 14:34:23 2017 +0800
+
+    delete some unused files
+
+commit 6f2f42b7d973b8250988c3cca733fa1b7c489218
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Tue Dec 13 00:05:06 2016 +0800
+
+     optimized itools
+
+commit f8de3209fdd99e4ad259da9894935b5defe9cad0
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Mon Dec 5 15:02:29 2016 -0800
+
+    interface for <Psi0|P|Psi1>
+
+commit 9c172fd687821628da97c0c440be18c9d7425d54
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Sat Dec 3 21:23:42 2016 -0800
+
+    create tmpdir for properties
+
+commit eb29ab6cd3325f98b299c4cbc9b4bc12074880a8
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Sat Dec 3 20:48:47 2016 -0800
+
+    interface for properties
+
+commit 16db8700b02eaee69a184a258516a4d9ace46536
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Sat Dec 3 03:34:54 2016 -0800
+
+    Add mpo_dmrg_propsItrf.py for properties
+
+commit 731fee88fd0e9d3128e38dccd45aa7ca1521636a
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Fri Dec 2 02:33:11 2016 -0800
+
+    updated property MPO
+
+commit 9dc601ede8d70e340797ee94bca0bfc80089c6cc
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Thu Dec 1 16:11:11 2016 -0800
+
+    updated MPO for correlators in mpo_dmrg_spinopers.py/qtensor_spinopers.py
+
+commit f6b5b34eb2a07c2c6b5b17208e1072e93772f21a
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Wed Nov 30 20:42:39 2016 -0800
+
+    properties subroutines
+
+commit 0bd91f67cd3a49611104183a2ceae7e3c49fb4f4
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Wed Nov 30 17:34:22 2016 -0800
+
+    start to implement properties
+
+commit d23d2ec0acb80a4a17b12bde75774674f12f1862
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Thu Nov 24 01:11:47 2016 -0800
+
+    2d hubbard
+
+commit 1d853c43dfdb337b973c19245a60c8352c2e28a0
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Thu Nov 24 00:22:01 2016 -0800
+
+    dumpMPO for general h1e, which also enables the Hubbard2D or any topologies
+
+commit 8430a8f775cb7741af1649713363dfe080ffe034
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Wed Nov 23 21:28:54 2016 -0800
+
+    delete osdmet
+
+commit 9343671390f50f1950bf845f1c7b3e7050368103
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Mon Nov 21 13:59:44 2016 -0800
+
+    change name
+
+commit eaf6b07f578e9e96d67c7a48130e400f97e33809
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Mon Nov 21 13:51:06 2016 -0800
+
+    Hubbard model
+
+commit aafed3903a3a1c9f2fe2dea1946b1d47e3fd2508
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Thu Nov 17 10:22:15 2016 -0800
+
+    pgdvdson allows early exit if S is the positive definite
+
+commit 4712ce982105389c441b14664c445a16ff9ea093
+Merge: dfd7725 a8857cc
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Thu Nov 17 00:58:38 2016 -0800
+
+    merge
+
+commit dfd77257292360244611deb81ab36f5b22ba46c2
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Thu Nov 17 00:57:45 2016 -0800
+
+    pgdvdson
+
+commit a8857cccd143030f9c2c45d47d085702b0df1262
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Thu Nov 17 00:56:19 2016 -0800
+
+    small bugs
+
+commit 80b45150c066248c0ddfa00610ed53a3059c8e15
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Fri Nov 11 19:24:51 2016 -0800
+
+    pdvdson
+
+commit 14ce035adadc006484453e5f90a32b2ac21005b2
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Fri Nov 11 18:34:39 2016 -0800
+
+    rohf embedding
+
+commit 631190b478c6fb1b54e03e0017fe10645528b24a
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Tue Nov 8 16:32:25 2016 -0800
+
+    start open-shell dmet
+
+commit 917a94406f636c418b047fb7ece6d5829e17cb98
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Tue Nov 8 11:07:28 2016 -0800
+
+    set maxcycle to 20
+
+commit 7eafdc21ac6f1d7eda65e2aea5255c09e526ae36
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Sat Oct 29 01:42:28 2016 -0700
+
+    Summary for quadrature accuacy for H10
+
+commit 9a948033da8c66b2feaedf82c5315e72c97f2628
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Sat Oct 29 01:40:04 2016 -0700
+
+    examples_spmps/main_quadrature - test for quadrature accuracy!
+
+commit 7a5db5c5173a9dcec4f9d78ea61ef766aa658235
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Thu Oct 27 22:07:59 2016 -0700
+
+    fix None problem
+
+commit 0150269f0493d35e1513ea073efb93b00ca16e93
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Mon Oct 24 17:23:33 2016 -0700
+
+    add some comments for spin rotation
+
+commit 15858630eb77c9776424e8fdbf28048d4f01aaea
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Fri Oct 21 21:21:53 2016 -0700
+
+    lowdin projector + gradient descent
+
+commit 4cd8f9efc0d1714f5a74916bbfc958f3ea501072
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Fri Oct 21 16:51:28 2016 -0700
+
+    tevol for spmps not simply defined without invoking <psi|P|psi>
+
+commit 573a95a30e4ff18ad51a95ea50b7cc4d804672d2
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Fri Oct 21 15:37:25 2016 -0700
+
+    r2n3
+
+commit 6ff4d6c590167ce7257e02aec1e38d652b24561e
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Fri Oct 21 13:43:22 2016 -0700
+
+    imaginary time evolution with lowdins projector
+
+commit 56781db9ab3dcf62d9371008113ba8d7e2d6d9ae
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Sat Oct 15 22:53:31 2016 -0700
+
+    fixed a bug for generating right site
+
+commit 4a7c5335544388fd064e94cb8adca52d24ff0808
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Sat Oct 15 17:48:01 2016 -0700
+
+    add autordms
+
+commit 03d943a1274fe78aa03e54a901aca7ad794c75c5
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Sat Oct 15 17:46:57 2016 -0700
+
+    only left qtensor for complex
+
+commit a6a9f7d8441f08612cfc18df565d124741d91846
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Fri Oct 14 21:02:32 2016 -0700
+
+    fix particle number symmetry
+
+commit 010fc79a5741096740c37e0ac82e3073017ea2e4
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Thu Oct 13 14:40:22 2016 -0700
+
+    clear up
+
+commit 4c1e3d5cc5e568df3fae4dc885cee92b47bccb6b
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Thu Oct 13 02:16:49 2016 -0700
+
+    clear up
+
+commit 5d042c0375c16bc11c23c174727bc18dce32b970
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Thu Oct 13 02:08:49 2016 -0700
+
+    start to add head
+
+commit 1e8574f2dba20caaa89b07e9841e460e0e1b9420
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Wed Oct 12 20:57:35 2016 -0700
+
+    create examples_basics for basic dmrg functionalities
+
+commit cc3975d40bfc5482df30a3512e7bf1524a1eee13
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Wed Oct 12 15:05:17 2016 -0700
+
+    change name
+
+commit 5c37a1175292266c76cd8790e8759f6e766700d0
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Wed Oct 12 02:09:04 2016 -0700
+
+    better printing
+
+commit 1c976bd6a5ec0b37e3ac9042a6cc3586b2ddbcd2
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Wed Oct 12 02:07:29 2016 -0700
+
+    better printing
+
+commit b0dcd1ac27b0de40cb0b07081dce0e566ef0a2f1
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Wed Oct 12 02:03:06 2016 -0700
+
+    finish SP-MPSPT by adding n0
+
+commit cb65f9e31ade042fa6b9da9bf0ad7d252316d2a3
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Tue Oct 11 22:41:16 2016 -0700
+
+    remove aci - Bk
+
+commit 93024414dd7165a4c91db2dbce26a1ed6699d157
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Tue Oct 11 22:32:24 2016 -0700
+
+    remove diag & splitV now!
+
+commit c0a9299cdae0ab5ae2d70ca11dff9ea1e7e0d7ec
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Tue Oct 11 22:24:29 2016 -0700
+
+    remove diag approximation & split V
+
+commit 935bafa428fce93a0175121262b0143b69785d08
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Tue Oct 11 21:53:18 2016 -0700
+
+    to remove QVec
+
+commit 4a7ce3958ea10ff702682b3fbf0e65fb4a8d81d3
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Tue Oct 11 20:41:50 2016 -0700
+
+    to simplify mpo_dmrg_dot
+
+commit e0b2c590664bb2dcba94e9991b64590885fcfbd8
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Mon Oct 10 14:40:43 2016 -0700
+
+    revising the code
+
+commit 362ecd621a9249a79e14f056ed0b07879d0a0f0e
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Mon Oct 10 13:55:55 2016 -0700
+
+    A stable version with various PT options - to be cleaned later
+
+commit 8c8a4376bac5db47638d802ca15a3a33c0da9db8
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Mon Oct 10 13:28:24 2016 -0700
+
+    to clear up the pt
+
+commit 3d6670ebb38eca59337b37f37b35f04ce05f275a
+Author: zhendong <zhendong@princeton.edu>
+Date:   Wed Oct 5 05:22:02 2016 -0400
+
+    update iface
+
+commit 81577ea5b4179ede22b86ab85cdf14e1efb37be2
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Wed Oct 5 01:38:51 2016 -0700
+
+    update interface
+
+commit 45248dc937e5b73617ff8c1a55a63be10a365759
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Wed Oct 5 01:23:27 2016 -0700
+
+    fep
+
+commit 8f85435ff13469e955641577da6d91149820781e
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Mon Oct 3 14:25:36 2016 -0700
+
+    test for h6
+
+commit 27bf0f02ebb09b928b08b4b6a1f3623630211405
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Fri Sep 30 15:50:12 2016 -0700
+
+    example for h10
+
+commit 7861b05da9b86edae972235d716fc094e796f89e
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Fri Sep 30 15:32:01 2016 -0700
+
+    updated imaginary time evolution
+
+commit ca2a0b66efe7daee028dac97653e9efbfd78adb3
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Fri Sep 30 15:12:36 2016 -0700
+
+    split H in time-evolution
+
+commit afca363c39ba475aa30a460b822c42b52d8d8485
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Thu Sep 29 22:05:39 2016 -0700
+
+    no noise is apllied in time-evolution
+
+commit 13e62726122adf9d30e2f0a01894627b33cc7599
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Thu Sep 29 19:10:26 2016 -0700
+
+    local orbitals for time evolution
+
+commit 6539525d72cdb3c4a8a63ad5416e14e0d8026f12
+Author: zhendong <zhendong@princeton.edu>
+Date:   Wed Sep 28 17:25:15 2016 -0400
+
+    better rdm renormalization for imaginary time
+
+commit b666ae0c498524c9ca8c5b57099dd3e3d6008055
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Wed Sep 28 13:04:56 2016 -0700
+
+    updated 2bdGF cal.
+
+commit 0e72469c7bee71639499934e217578578bbc7135
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Wed Sep 28 11:07:34 2016 -0700
+
+    mole.h5 for test
+
+commit a0835a8594ff014c09158909a5c8cd020c831238
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Wed Sep 28 11:04:36 2016 -0700
+
+    lmps
+
+commit dfda02777db8ba88f6536e77402b2433351805ff
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Wed Sep 28 11:03:59 2016 -0700
+
+    state-averaged imaginary time evolution
+
+commit 41354f3054108934a2ef09964b590e7f61c9201a
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Tue Sep 27 23:57:04 2016 -0700
+
+    more test for 2bdGF
+
+commit b6912cfb6d82228afd750d28eece5067f9525896
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Mon Sep 26 22:02:49 2016 -0700
+
+    Note that ifQt must be set before dumpMPO, otherwise the correct data structure is not used!
+
+commit 5aff60b24f0c77fd87ed81864c62fcb4408cabb1
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Mon Sep 26 01:45:58 2016 -0700
+
+    conjugated gradient idea
+
+commit 8dcbf35b7023038caffbc59a13d67ddea6c99432
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Sun Sep 25 22:43:26 2016 -0700
+
+    conjugate gradient for solving Ax=b using MPS
+
+commit fc8eda20d1749b87f5013312ea7d0958722ab47b
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Sun Sep 25 10:59:01 2016 -0700
+
+    Brute-force MPO scheme for RDMs
+
+commit 0b21a208541796ec0e7d9bbd40239497059ef4b0
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Sat Sep 24 14:30:45 2016 -0700
+
+    multi-state compression
+
+commit 914592eb5a6fd592014aeca34208efb6a4d14912
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Fri Sep 23 21:20:18 2016 -0700
+
+    Imaginary time evolution for MPS in examples_2bdGF/main_tevol0.py
+
+commit 53e82ce1037cfc6ed258a6fa9d332afed88f8375
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Fri Sep 23 00:44:41 2016 -0700
+
+    updated time-evolution in left canonical form for many states simutaneously
+
+commit 3b9748f704928319681d406a2669b1e58d6ccfd7
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Thu Sep 22 21:58:34 2016 -0700
+
+    update imaginary time evolution
+
+commit 0dc353349522242c7a02b822c4a25646f7603b4f
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Wed Sep 21 14:05:22 2016 -0700
+
+    examples for RDMs of SP-MPS in examples_openshell
+
+commit 7f2d02126d320c180762877532b11d09b4e9e19f
+Merge: e0bac62 9141e4d
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Tue Sep 20 17:05:40 2016 -0700
+
+    Merge branch 'master' of https://bitbucket.org/zhendong/zmpo_dmrg
+
+commit e0bac62944f5da1a44f077b964c9f4c1bb0a3e73
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Tue Sep 20 17:05:26 2016 -0700
+
+    state-average compresion!
+
+commit 9141e4de08a209488730ca7089d858dcbc552b68
+Author: zhendong <zhendong@princeton.edu>
+Date:   Tue Sep 20 13:38:50 2016 -0400
+
+    dump MO coefficients
+
+commit 346d68b7692218bcf83684b8b4e8caa698a45009
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Mon Sep 19 13:45:04 2016 -0700
+
+    better initialization by mps0occun with symmetry
+
+commit bead0aa935a2e7b5fae7f436589a4b6a3b47051d
+Author: zhendong <zhendong@princeton.edu>
+Date:   Mon Sep 19 16:08:24 2016 -0400
+
+    try to improve initialization
+
+commit 4d2567214c13d7a3e118b062a26701fea4ba0e64
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Wed Sep 14 14:51:41 2016 -0700
+
+    udpated pt
+
+commit bb63b5af2efd5718d8d6b1a48c4ec7a8dd97ebe7
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Tue Sep 13 13:52:49 2016 -0700
+
+    start to implement shift operators Q0*(H-Hd)*Q0
+
+commit a2bb4c13532a72084270e37489d8dc378d880015
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Mon Sep 12 22:41:21 2016 -0700
+
+    example for compression with icase=1 in examples_ptH10r1
+
+commit e1c6e38d18298501deae190673c16825da4b89c4
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Mon Sep 12 22:39:20 2016 -0700
+
+    compression
+
+commit b6e9674266c05658a824f9ee80a3d9cb4387836b
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Mon Sep 12 21:12:50 2016 -0700
+
+    udpate log
+
+commit e3c4ef61a1906131e28e8a847eda044afb642410
+Merge: 96b78d7 cc3ff7f
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Mon Sep 12 21:12:11 2016 -0700
+
+    test
+
+commit cc3ff7f40fe22ebecd86080e0370e7e5c686021f
+Author: zhendong <zhendong@princeton.edu>
+Date:   Tue Sep 13 00:08:10 2016 -0400
+
+    test
+
+commit 96b78d7f467909798b923914015c0906fba1f879
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Mon Sep 12 21:05:30 2016 -0700
+
+    better log
+
+commit c12c800630bb0f25deb0db2126c33ba72fbd79d5
+Author: zhendong <zhendong@princeton.edu>
+Date:   Wed Sep 7 03:05:56 2016 -0400
+
+    test
+
+commit 19a6b16a98102339e7b66fb90dc58e169df12073
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Tue Sep 6 12:07:06 2016 -0700
+
+    fixed a bug using full H
+
+commit 13be69958cbc012565560393fb4f1f72177dd551
+Author: zhendong <zhendong@princeton.edu>
+Date:   Mon Sep 5 03:33:18 2016 -0400
+
+    fixed localized mo
+
+commit ccad7bc1167aa731f0b6953c4fcdcaf5639a4912
+Author: zhendong <zhendong@princeton.edu>
+Date:   Sun Sep 4 00:45:15 2016 -0400
+
+    using more omp is better than using mpi with more processors
+
+commit 5052dcb36197fa307257919e215d33bf1027230f
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Sat Sep 3 02:16:24 2016 -0700
+
+    v split by using dmrg.ptlst
+
+commit c6affc5b73a823e85c91a2e7333664c5cc2fe5fc
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Fri Sep 2 17:09:40 2016 -0700
+
+    simple noise for civecs
+
+commit 2e743e54352cb7ccff0dcdeab4a5108233e9523f
+Author: zhendong <zhendong@princeton.edu>
+Date:   Fri Sep 2 18:22:13 2016 -0400
+
+    fixed a bug for Fpq
+
+commit 9d5e042f0f350b2639926659e7c45e589634d922
+Author: zhendong <zhendong@princeton.edu>
+Date:   Fri Sep 2 01:33:05 2016 -0400
+
+    update interface for frozen core
+
+commit 23f7d7f51f34301efc0313ccd4b3148bb8ba7032
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Thu Sep 1 20:59:07 2016 -0700
+
+    Frozen core interface
+
+commit e45c4109f6415d464bf8a532a2916cc7bd2eb942
+Author: zhendong <zhendong@princeton.edu>
+Date:   Thu Sep 1 16:17:46 2016 -0400
+
+    Qt version of ptn
+
+commit fd51275ba40f1bb2424c086a47ed4082cc823fb2
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Thu Sep 1 11:47:37 2016 -0700
+
+    general order pt
+
+commit 4d36e2f5ecb2e798ebb06d012445881611c16bfd
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Wed Aug 31 14:46:31 2016 -0700
+
+    Add compression technique now!
+
+commit 1a9caa5064243afb080a2fd5bfd7f8de5aaeda60
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Tue Aug 30 22:36:20 2016 -0700
+
+    add examples_ci
+
+commit da17505236d45ccae5179f6f2028625cdf1ad88f
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Tue Aug 30 13:25:26 2016 -0700
+
+    pt for H2O
+
+commit 2cab7ca0dbdb1ef9da1ba62ae4296354d1341ce6
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Mon Aug 29 16:39:54 2016 -0700
+
+    test
+
+commit 9c9f5f11cd29a0e60ee0106b0f685455ea0e87a7
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Mon Aug 29 15:05:41 2016 -0700
+
+    updated e2_averaged
+
+commit acf9df52e3caa4103c68de3593adec127d178236
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Mon Aug 29 14:36:48 2016 -0700
+
+    test
+
+commit 52229e1cae67730bcd718ba2ed792da95912f42b
+Author: zhendong <zhendong@princeton.edu>
+Date:   Mon Aug 29 14:14:57 2016 -0400
+
+    cr2 test
+
+commit b2d85835f92215c1abe7b1e284cb2cd105f427af
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Mon Aug 29 11:08:19 2016 -0700
+
+    revised hd
+
+commit 2d5412b7f37f9a005489a5681abbe8af977d5744
+Author: zhendong <zhendong@princeton.edu>
+Date:   Sat Aug 27 02:14:06 2016 -0400
+
+    better threshold control for solver
+
+commit 0bebc1d61bee48f547cdfe678ba3374e7b80aaf2
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Fri Aug 26 21:48:03 2016 -0700
+
+    <Psi|H0|Psi[i]>
+
+commit 52a0b757fd3dfe90cbe30c055414fffce19587dc
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Fri Aug 26 17:47:31 2016 -0700
+
+    approximate CI
+
+commit 8114cf5ecfd1e4f90b1762c09d7f0a26d6f5a23c
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Fri Aug 26 16:55:06 2016 -0700
+
+    update normalization for GF
+
+commit ba31c1a964d84459319f7c72e6a3ee09179f680a
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Fri Aug 26 11:57:19 2016 -0700
+
+    fixed a printing error
+
+commit 6e099e9fe69e0d1f0078b74d124207a7430f6f01
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Fri Aug 26 11:42:17 2016 -0700
+
+    pt examples
+
+commit d8df1b5e4d90fdc8aa7681d8dd3522ff7df5ba63
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Thu Aug 25 20:09:03 2016 -0700
+
+    pt test
+
+commit 69d0c76cbd496596e8e460000bbd3cf90c9514e0
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Thu Aug 25 17:33:11 2016 -0700
+
+    updated example
+
+commit ab0aa24ed16c8d33d4aedf3afa2d7e1b738c9ebe
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Thu Aug 25 13:15:57 2016 -0700
+
+    updated scipy.linalg.svd first
+
+commit 5fbafb35dbc890a458dd08de62074ea6316cd88c
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Thu Aug 25 11:57:16 2016 -0700
+
+    numpy.linalg.svd first
+
+commit 2bc8376d19dfdeab094ec46523ade1032579660f
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Thu Aug 25 11:49:15 2016 -0700
+
+    improve svd buy calling scipy and numpy both
+
+commit 987aa579e69b3c7a0e0799c3893c7fdb92a5b6e8
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Thu Aug 25 11:10:41 2016 -0700
+
+    updated rk4
+
+commit e390154ccc88432f5b01d2565ade62df94524115
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Tue Aug 23 16:09:05 2016 -0700
+
+    to profile spmps
+
+commit 0d898b8ff463d16c54be0bb94f26492dec057935
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Tue Aug 23 15:39:33 2016 -0700
+
+    add solving Hylleraas functional in the space of approximate perturber
+
+commit d3eaa90263284c8f3d8aa910217150be7eee5f41
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Tue Aug 23 13:07:46 2016 -0700
+
+    time-evolution for H6
+
+commit 6bb086303a3a2f5ef33b28edad3213b78b8f61d3
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Mon Aug 22 16:26:16 2016 -0700
+
+    improve initialization by nonsym sweep via [initSweep=n]
+
+commit b75c3149527bd4979f17d778d7aa6d1513fd02ea
+Merge: 5be085b 4da9bb8
+Author: zhendong <zhendong@princeton.edu>
+Date:   Thu Aug 18 03:58:48 2016 -0400
+
+    Merge branch 'master' of https://bitbucket.org/zhendong/zmpo_dmrg
+
+commit 5be085b4cc02bc5e0f48f845209c199ee4c34d28
+Author: zhendong <zhendong@princeton.edu>
+Date:   Thu Aug 18 03:58:31 2016 -0400
+
+    time evolution data
+
+commit 4da9bb80f3990acbdb5ba0615a5fc04c1ab869ff
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Wed Aug 17 11:08:40 2016 -0700
+
+    print
+
+commit 6ca6a66e75d97314baf4ca08c614cf43ef74afcf
+Merge: 5a27181 bd0e83f
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Tue Aug 16 18:28:25 2016 -0700
+
+    Merge branch 'master' of https://bitbucket.org/zhendong/zmpo_dmrg
+
+commit 5a271815ea431e803101944e44cb549c6f3e1016
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Tue Aug 16 18:28:02 2016 -0700
+
+    mps_add
+
+commit bd0e83f8b9ef9e80068120b9d74a7ab6dafeb97d
+Author: zhendong <zhendong@princeton.edu>
+Date:   Tue Aug 16 20:26:59 2016 -0400
+
+    io error
+
+commit e92edcd4c1af0b03f703f5074c9254572c57f93a
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Tue Aug 16 17:10:10 2016 -0700
+
+    runge-kutta 4
+
+commit d6753ed415ecf3716f3df2f2f4ab7b94614a8046
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Tue Aug 16 11:31:55 2016 -0700
+
+    fixed a bug for ptopers with Qt objects for iop==2
+
+commit 4ded9344f326a3e372d24d8a9de81338fc89ab5e
+Author: zhendong <zhendong@princeton.edu>
+Date:   Mon Aug 15 14:05:46 2016 -0400
+
+    cr2 example
+
+commit 799208c18fa50a4bb532b7e046c535ce3a5110d6
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Fri Aug 12 11:38:12 2016 -0700
+
+    add real time propogation and greens funciton for hubbard model
+
+commit 6e8442a88253aedbd9d8b1914982772f9ea6e446
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Sat Jul 9 00:35:20 2016 -0400
+
+    update sp-mps based pt
+
+commit 812a990293359962bfd6e27f8a421427d8f143dd
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Wed Jul 6 13:51:28 2016 -0400
+
+    better print for solver
+
+commit c9f315820c82fc0e2fcca3e9dea5d9fec0fe456e
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Tue Jun 14 17:38:42 2016 -0400
+
+    MPO for H0 used in PT: mpo_dmrg_ptopers.py
+
+commit 2f27452c5ebbf337f0c7a2240c9b5b783ba72431
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Mon Jun 13 15:56:48 2016 -0400
+
+    diagonal approximation to PT equations
+
+commit 10f95c3c294b06f134a22cef60e78418fb4f5aa3
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Mon Jun 13 12:09:54 2016 -0400
+
+    more flexible mpo treatment by files
+
+commit d589f4cfea1e55f8e2a4dd9519b838d435b7f59c
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Thu Jun 9 00:12:08 2016 -0400
+
+    start properties
+
+commit f9df1367011ca650fe3063aa47b960139c26dbb8
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Tue May 31 23:56:05 2016 -0600
+
+    qpt works for psi0 projection
+
+commit e7c381f8bba6a37b29f721fc6ebc7d025e6cabd9
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Wed Jun 1 00:06:31 2016 -0400
+
+    pt
+
+commit 6c88301f62d56b2365f5d9cc852c22533a86b572
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Wed May 25 22:13:45 2016 -0400
+
+    MPS-based CI
+
+commit b62bc508fe13f3ac994be8a673feebbc011b5091
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Tue May 24 16:58:02 2016 -0400
+
+    PT-Qt version works
+
+commit f7981091421c5f71a790070de74a1ff82ec1db74
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Tue May 24 15:08:30 2016 -0400
+
+    basic pt for nonQt and nonS2proj
+
+commit 037ca4d97528272390091ac971f2c10bd5488915
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Mon May 23 16:09:11 2016 -0400
+
+    linear equation solver for diagonal dominant matrix
+
+commit 13c225ebc6266df7f5b28984c2ebf232b8b320d2
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Sat May 21 01:50:23 2016 -0400
+
+    Start PT treatment
+
+commit 9901e585425f03b3f6471bf6070b8f07f3118b9b
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Sat May 21 01:49:23 2016 -0400
+
+    better file list
+
+commit d5b176f0f9b47ea8399ea84e95a809db5a1bd8b4
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Tue May 17 00:17:20 2016 -0400
+
+    state specific excited state calculation works!
+
+commit 9a1d7667d9a8fceec5f7dd103266e42d18f10d2d
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Sun May 15 23:21:42 2016 -0400
+
+    fixed a bug
+
+commit efc21df43df09f040616b57771c0ef9414d8489a
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Sun May 15 19:37:57 2016 -0400
+
+    start state-specific excited states
+
+commit a3525a988b5769e3561f7d54f365557ac7f0962a
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Fri May 13 13:41:16 2016 -0400
+
+    better schedule
+
+commit f2fd099fb47270d4b1a9cd25c38db4efca05b023
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Wed May 11 21:26:27 2016 -0400
+
+    Improve renormalization calculations
+
+commit 1c2d1ade7837fcc1ac8f6355f334d7204d6037ad
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Wed May 11 00:20:16 2016 -0400
+
+    Add O2 and MultiState examples
+
+commit a25301943c58793ade3124672e6408f109438787
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Tue May 10 13:43:32 2016 -0400
+
+    tighten the convergence during the sweep with noise, and increase initial noise in davidson. Set the thresh for dwts to negative.
+
+commit c625eb88d23ea80d8d266bd998b7dfb737ecd39e
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Tue May 10 01:31:18 2016 -0400
+
+    to interface PMloc and Fielder
+
+commit 184ed3ef7079bc50a8f97336a665e50d0d91ed86
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Tue May 10 01:02:57 2016 -0400
+
+    replace einsum by dot
+
+commit c8dd1b0acfc89b46365a47325595fb61be041496
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Mon May 9 20:18:00 2016 -0400
+
+    Qt examples
+
+commit ae16a331034c219cc52bdc3df1ca093c449a4cf5
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Mon May 9 20:12:06 2016 -0400
+
+    add examples
+
+commit 091577bcd2f102a0f1ccb9a7037304a56cf8a36b
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Mon May 9 19:50:11 2016 -0400
+
+    make levelshift=1.e-4 to improve davdison convergence
+
+commit 90bffc13bf838c2d4236c72b677a9d83fffc8499
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Sun May 8 20:19:37 2016 -0400
+
+    allowed to use occun as initial guess
+
+commit f2d6b041c2e7c6f23283e2e12a1485eddf6b8f9d
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Sun May 8 19:55:14 2016 -0400
+
+    update simple examples
+
+commit 8ebbe61c20991c4c1e43e43dfbf4d039908abbe9
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Sun May 8 18:34:45 2016 -0400
+
+    Fix guess error
+
+commit b64b6cb47f73ce0a411043188a40f2b312462c0d
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Sun May 8 13:55:10 2016 -0400
+
+    support dump/losf mps
+
+commit c3c77851de6553edd6f0ea399c984837fbf319b3
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Sat May 7 18:11:18 2016 -0400
+
+    resolve a bug for split integrals
+
+commit 7581e3311f7eb3c4a4105c2a3dbf8f39d23d4b3f
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Thu May 5 21:40:33 2016 -0400
+
+    Allows to slice Wfactor
+
+commit b0a5103bb8a6a747beb99cf1606613357d546a14
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Tue May 3 14:06:09 2016 -0400
+
+    starting memory control
+
+commit cc08eb3c03fa5c07c679d5c548102b758d90bf7c
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Tue May 3 13:25:35 2016 -0400
+
+    optimized memory usage
+
+commit 010081e71a1d5fcc3232fc56fac9df2c15f293a8
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Tue May 3 00:40:51 2016 -0400
+
+    acceleration by split tensordot into tensordotSYM and tensordotCAL, the former one is reused.
+
+commit bb3ff6134354bb2355a6350fccce3197c01ed011
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Mon May 2 23:38:29 2016 -0400
+
+    modify HVec(Qt), but does not help
+
+commit 0142af09c920a8e6b18b80df655fc77692e9f0ec
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Mon May 2 16:08:34 2016 -0400
+
+    Fixed bug in pRDM using Qt template
+
+commit a6ae787c4c566e53611e46efd8a298314b0ab6e8
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Mon May 2 13:21:42 2016 -0400
+
+    removing some redundant symmetry processing
+
+commit 33a98559fbfc220b2eef2026a958da2f5399f54c
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Fri Apr 29 11:30:27 2016 -0400
+
+    improve io for qtensor using packing/parsing data
+
+commit e1b41326e84c00754ca09b445146ec342411245f
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Thu Apr 28 17:03:57 2016 -0400
+
+    Avoid using dptCIsymmetry
+
+commit 489e378fada432d65710abc34f343a8915749c3d
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Thu Apr 28 15:35:39 2016 -0400
+
+    fixed bug in partition of task for parallelization
+
+commit 0d27a82734af39708b90c8a3a2df63512a41af4e
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Thu Apr 28 11:27:34 2016 -0400
+
+    update two-dot algorithm
+
+commit e55ae4a916265ce56fcd81b42cdb4fd86c558d7f
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Thu Apr 28 11:22:49 2016 -0400
+
+    avoid using linkTwoSites for two-dot algorithm
+
+commit aea9549e6d5b3644bf4a7fa32ef160329b2d8919
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Thu Apr 28 00:05:04 2016 -0400
+
+    using IO for MPO
+
+commit 8fc028b4c4ce9614ab12b3d92d697b4d495fd14c
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Wed Apr 27 15:52:46 2016 -0400
+
+    Spin-projected MPS (SP-MPS): version-0, correct energy
+
+commit 2c2718edd068e90dbf094f4a0afaab8120862b6c
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Wed Apr 27 15:50:01 2016 -0400
+
+    Finish the interface between zmpo_dmrg with Qtensor, although the speed is slower by 30 times!
+
+commit eaf4497af262fca912d42ce923d0eb99a9bbe210
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Wed Apr 20 22:32:22 2016 -0500
+
+    add mps.h5 in qtensor for test
+
+commit 6a9bd91ce5e76c78b8c329f53e9da770639ee41e
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Tue Apr 19 15:17:44 2016 -0500
+
+    reduce and project symmetry: (N,Sz)<->(N)
+
+commit 24fb1ec1cae7553b3776b2f8d8848f0b6a1d8347
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Fri Apr 15 14:57:34 2016 -0400
+
+    qtensor: operators up to Hfac are finished
+
+commit 485bfd1c0b7b9cc2c7aee4dfce06076e6887f4af
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Wed Apr 13 15:53:15 2016 -0400
+
+    create the qtensor class for block sparse operations
+
+commit 1ee27971243a9492ff81b249b899a47520b93d74
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Sun Apr 10 16:35:43 2016 -0400
+
+    add gitignore
+
+commit 4bbb22e3f1e192655e21a863d70b3bfe8c65b8ca
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Sun Apr 10 15:56:47 2016 -0400
+
+    precise control of Dcut
+
+commit 2d7966e115647112093b3a15c4893fe0808d0ee6
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Sat Apr 9 02:56:33 2016 -0400
+
+    better print
+
+commit 9941946d51a0e212b790e18bc5342dbd2f90eb46
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Fri Apr 8 22:42:39 2016 -0400
+
+    avoid using sympy
+
+commit 317a6082baea595df8d9dae745050aef66eb9b7f
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Fri Apr 8 20:09:26 2016 -0400
+
+    meta-lowdin for local basis
+
+commit bdc77dd7dacc82915153ccccd2c72d07ece1b837
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Fri Apr 8 00:58:16 2016 -0400
+
+    improve schedule for oneSite optimization
+
+commit c27ff45eda605018fd809cc50fd01b2499d5e842
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Thu Apr 7 23:56:28 2016 -0400
+
+    implement io for mps,qnum
+
+commit a57d96bee778364714a9615d644d5f188cb5c0e9
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Thu Apr 7 22:54:51 2016 -0400
+
+    start to interface detToMPS transformation
+
+commit c6d2aa7be0f1ba8b3d7799f832be78bc5bb3db64
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Thu Apr 7 22:53:24 2016 -0400
+
+    mpsmpo library
+
+commit 31ba4ee8a2e2c0c93a815a26dd62586e24a40d59
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Thu Apr 7 22:21:42 2016 -0400
+
+    improved quadrature
+
+commit 1e4f6f4ade9adf8b7b2c26235260b2f2b9fe733d
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Thu Apr 7 13:15:00 2016 -0400
+
+    Parallel Generalized Eigenvalue Problem Solver: pgdvdson
+
+commit 51f16b8ea2c261b3cee91aa3993e799dc24ce135
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Wed Apr 6 16:56:00 2016 -0400
+
+    normal dmrg works
+
+commit e9b3fabcb4732feadcee799c83d812a10d02bc6e
+Author: zhendongli <zhendongli2008@gmail.com>
+Date:   Tue Apr 5 14:31:14 2016 -0400
+
+    Initial commit

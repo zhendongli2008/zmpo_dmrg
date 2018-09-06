@@ -1,0 +1,62 @@
+
+========================================================================================
+*** It is very interesting to note that the dimension of reduced states is just 1!!! ***
+========================================================================================
+
+[mpo_dmrg_samps.sweep_projection] ifQt= False  (nsite,,ne,ms,sval)= (10, 10.0, 0.0, 0.0)
+ idx= 0 item= [1.0, 0.5] dim= 1  sigs= 1.0 pop= 1.0 ifcouple= True
+ isite= 0 site0= (1, 4, 1) rotL= (3, 1) site1= (1, 4, 2) srotR= (2, 1)
+ idx= 0 item= [2.0, 1.0] dim= 1  sigs= 1.0 pop= 1.0 ifcouple= True
+ isite= 1 site0= (1, 4, 1) rotL= (4, 1) site1= (2, 4, 3) srotR= (3, 1)
+ idx= 0 item= [3.0, 1.5] dim= 1  sigs= 1.0 pop= 1.0 ifcouple= True
+ isite= 2 site0= (1, 4, 1) rotL= (4, 1) site1= (3, 4, 4) srotR= (4, 1)
+ idx= 0 item= [4.0, 2.0] dim= 1  sigs= 1.0 pop= 1.0 ifcouple= True
+ isite= 3 site0= (1, 4, 1) rotL= (4, 1) site1= (4, 4, 5) srotR= (5, 1)
+ idx= 0 item= [5.0, 2.5] dim= 1  sigs= 1.0 pop= 1.0 ifcouple= True
+ isite= 4 site0= (1, 4, 1) rotL= (4, 1) site1= (5, 4, 6) srotR= (6, 1)
+ idx= 0 item= [6.0, 2.0] dim= 1  sigs= 0.833333333333 pop= 0.833333333333 ifcouple= True
+ idx= 1 item= [6.0, 3.0] dim= 1  sigs= 0.166666666667 pop= 1.0 ifcouple= False
+ isite= 5 site0= (1, 4, 1) rotL= (4, 1) site1= (6, 4, 5) srotR= (5, 1)
+ idx= 0 item= [7.0, 1.5] dim= 1  sigs= 0.8 pop= 0.8 ifcouple= True
+ idx= 1 item= [7.0, 2.5] dim= 1  sigs= 0.2 pop= 1.0 ifcouple= False
+ isite= 6 site0= (1, 4, 1) rotL= (4, 1) site1= (5, 4, 4) srotR= (4, 1)
+ idx= 0 item= [8.0, 1.0] dim= 1  sigs= 0.75 pop= 0.75 ifcouple= True
+ idx= 1 item= [8.0, 2.0] dim= 1  sigs= 0.25 pop= 1.0 ifcouple= False
+ isite= 7 site0= (1, 4, 1) rotL= (4, 1) site1= (4, 4, 3) srotR= (3, 1)
+ idx= 0 item= [9.0, 0.5] dim= 1  sigs= 0.666666666667 pop= 0.666666666667 ifcouple= True
+ idx= 1 item= [9.0, 1.5] dim= 1  sigs= 0.333333333333 pop= 1.0 ifcouple= False
+ isite= 8 site0= (1, 4, 1) rotL= (4, 1) site1= (3, 4, 2) srotR= (2, 1)
+ idx= 0 item= [10.0, 0.0] dim= 1  sigs= 0.5 pop= 0.5 ifcouple= True
+ idx= 1 item= [10.0, 1.0] dim= 1  sigs= 0.5 pop= 1.0 ifcouple= False
+ isite= 9 site0= (1, 4, 1) rotL= (4, 1) site1= (2, 4, 1) srotR= (1, 1)
+
+# Population analysis of MPS #
+qsym(N,S,M)= (10.0, 0.0, 0.0) dr= 1 wt= 0.166666666667 accum= 0.166666666667
+warning: losing norm for the normalized left-MPS! pop= 0.166666666667
+qnumsl_red = [[ 10.   0.   1.]]
+target key = [ 10.   0.]  original ms= 0.0
+weight= 0.166666666667
+finalize...
+isite= 0 (1, 4, 2)
+isite= 1 (2, 4, 3)
+isite= 2 (3, 4, 4)
+isite= 3 (4, 4, 5)
+isite= 4 (5, 4, 6)
+isite= 5 (6, 4, 5)
+isite= 6 (5, 4, 4)
+isite= 7 (4, 4, 3)
+isite= 8 (3, 4, 2)
+isite= 9 (2, 4, 1)
+isite/qnumSM= 1
+isite/qnumSM= 2
+isite/qnumSM= 3
+isite/qnumSM= 4
+isite/qnumSM= 5
+isite/qnumSM= 6
+isite/qnumSM= 5
+isite/qnumSM= 4
+isite/qnumSM= 3
+isite/qnumSM= 2
+isite/qnumSM= 1
+dt= 0.0682129859924
+

@@ -1,0 +1,38 @@
+
+*** Programs [2017.02.02] ***
+
+  1. Purification/Initialization step
+     --- The present sweep projection via recursive many-body basis transformation
+         is quite general, suitable for projection of any input MPS (Broken-symmetry)!
+         even for particle number one !
+  2. Reduced density matrix 
+     --- see Eq. (36) of Sharma&Chan_JCP2012
+  3. Structure of MPS and transformation 
+     --- see APPENDIX C: MATRIX PRODUCT STATE FORMULATION
+  4. singlet embedding??? => put a set of non-interacting states for nonsinglet state?
+       			   T-[Triplet,Ms=0,Ms=-1 are very simple to construct!] => S
+
+*** Note ***
+
+  0. The left superblock is always of dimension: r[l-1]*4,
+     since [sl=s]*[s=1/2] = [s-1/2]+[s+1/2], that is, still 
+     two new states are generated.
+  1. a good example is the projection for ferromagnetically 
+     coupled iron dimer for ms equal to zero where the spin 
+     adapted one should only have one bond! 
+     --- see 1.h10_nqt_afm
+  2. How to generate geneoligically coupled csf? 
+     relation with left canonical spin adapted mps
+     --- Actually, essentially the same in construction of the space!
+
+*** Future ***
+
+ Variational compression [Right & Left Sweeps]
+ Convert normal MPS or SP-MPS to SA-MPS via variational fittings:
+  min L[|SAMPS>] = min <e[SAMPS]-MPS|e[SAMPS]-MPS>
+        |	 *--*--*--     --*--*--*--*  
+      --X--  =   |  |  |    |    |  |  |  |
+                 *--*--*-- -X- --*--*--*--*
+  where the SAMPS is expanded as 
+     C[aSaMa,nkSkMk,bSbMb] = cg[SaMaSkMk|SbMb]*C[aSa,kSk,bSb]
+					       --------------
