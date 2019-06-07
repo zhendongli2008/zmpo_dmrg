@@ -1,4 +1,4 @@
-# Parallel Fock-Space DMRG algorithm based on MPO #
+# Parallel Fock-Space ab DMRG algorithm based on MPO for Quantun Chemistry Hamiltonian #
 
 Basic ideas:                                        
 
