@@ -13,6 +13,7 @@ Supports:
  2. Spin-projected DMRG with S^2 symmetry
 
  3. Conversion form spin-projected MPS to spin-adapted MPS used in the BLOCK code
+    [for examples, see source/samps/example_conversion/]
 
 Reference:
 
