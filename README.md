@@ -1,4 +1,4 @@
-# ZMPO_DMRG #
+# ZMPO-DMRG #
 
 A Parallel Fock-Space ab DMRG code based on MPO for Quantum Chemistry Hamiltonian 
 
