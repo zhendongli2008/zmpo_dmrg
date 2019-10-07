@@ -1,4 +1,6 @@
-# Parallel Fock-Space ab DMRG algorithm based on MPO for Quantum Chemistry Hamiltonian #
+# ZMPO_DMRG #
+
+A Parallel Fock-Space ab DMRG code based on MPO for Quantum Chemistry Hamiltonian 
 
 Basic ideas:                                        
 
